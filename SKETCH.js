@@ -1,30 +1,26 @@
 var yellowRad = 71.406/2
-
 var yellow1 = 406.203
 
 function setup() {
-  var canvas = createCanvas(windowWidth, 400);
-// canvas.parent('header');
- // frameRate(30)
+    var canvas = createCanvas(windowWidth, 400);
+    canvas.parent('header');
+//frameRate(30)
 }
 
 
 function draw() {
-background(195, 38, 41);
+    background(195, 38, 41);
 
-  
-  
+    fill(58, 21, 18);
+    circle(370.625, 194.749, 78.043/2);
 
-fill(58, 21, 18);
-circle(370.625, 194.749, 78.043/2);
-
-noStroke()
-fill(58, 21, 18);
-circle(250.296, 194.749, 184.404/2);
+    noStroke()
+    fill(58, 21, 18);
+    circle(250.296, 194.749, 184.404/2);
   
-  noStroke()  
-fill(195, 217, 77)
-circle(yellow1, 194.749, yellowRad);
+    noStroke()  
+    fill(195, 217, 77)
+    circle(yellow1, 194.749, yellowRad);
   
 fill(238, 38, 36);
 circle(283.246, 194.749, 118.506/2);
