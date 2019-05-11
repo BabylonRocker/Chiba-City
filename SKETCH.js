@@ -1,6 +1,13 @@
 var yellowRad = 71.406/2
 var yellow1 = 406.203
 
+let myFont;
+
+function preload() {
+  myFont = loadFont('Valera.ttf');
+}
+
+
 function setup() {
     var canvas = createCanvas(windowWidth, 400);
     canvas.parent('header');
@@ -30,7 +37,7 @@ fill(195, 39, 41);
 circle(291.493, 194.749, 106.011/2);
   
 
-  
+textFont(myFont);  
 textSize(30);
 fill(155);
 text("Jackson" ,40,200); //shadow
