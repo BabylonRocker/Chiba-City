@@ -16,7 +16,7 @@ function setup() {
 
 
 function draw() {
-    background(195, 38, 41);
+    background(244, 193, 67);
 
     fill(58, 21, 18);
     circle(370.625, 194.749, 78.043/2);
