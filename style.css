@@ -3,16 +3,16 @@
 }
 
 body {
-    background-color: rgb(244, 193, 67);
+    background-color: rgb(195, 38, 41);
 }
 
 #header{
-    margin: 0;
+    margin:0;
 }
 
 #portfolio {
     max-width: 500px;
-    margin: 0 auto 0 auto;
+    margin:auto;
 }
 
 #portfolio img{
