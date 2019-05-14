@@ -6,16 +6,16 @@ body {
     background-color: rgb(195, 38, 41);
 }
 
-## header{
+#header{
     margin:0;
 }
 
-## portfolio {
+#portfolio {
     max-width: 500px;
     margin:auto;
 }
 
-## portfolio img{
+#portfolio img{
     max-width: 500px;
     padding: 20px;
 
