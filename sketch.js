@@ -4,6 +4,7 @@ var yellow1 = 406.203
 
 function setup() {
   createCanvas(600, 400);
+    canvas.parent('header');
  // frameRate(30)
 }
 
