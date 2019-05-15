@@ -10,7 +10,7 @@ function setup() {
 
 
 function draw() {
-background(195, 38, 41);
+background(255, 194, 14);
 
   
   
