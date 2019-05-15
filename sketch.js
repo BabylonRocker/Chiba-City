@@ -1,47 +1,62 @@
-var yellowRad = 71.406/2
-var yellow1 = 406.203
+//based //based on https://www.openprocessing.org/sketch/424072 by Abdelrhman Wassim
+
+var x= 280;
+var moonRadius = 17;
 
 function setup() {
   var canvas = createCanvas(windowWidth, 400);
- // canvas.parent('header');
+  canvas.parent('header');
 }
 
 function draw() {
-    
-    background(244, 193, 67);
 
-    fill(58, 21, 18);
-    circle(370.625, 194.749, 78.043/2);
-
-    noStroke()
-    fill(58, 21, 18);
-    circle(250.296, 194.749, 184.404/2);
+	background (0,100,100);
   
-    noStroke()  
-    fill(195, 217, 77)
-    circle(yellow1, 194.749, yellowRad);
-  
-fill(238, 38, 36);
-circle(283.246, 194.749, 118.506/2);
-  
-  
-fill(195, 39, 41);
-circle(291.493, 194.749, 106.011/2);
-  
-
-// textFont(myFont);  
-textSize(30);
-fill(155);
-text("Jackson" ,40,200); //shadow
-text("Williams",40,225); //shadow
-fill(195, 217, 77);
-text("Jackson",38,198);
-text("Williams",38,223);
-    
-yellow1 = yellow1 +.6
-  
-if (yellow1 >= windowWidth+yellowRad){  yellow1 = -100;
-				      
-}
+	//the moon :)
+  fill(255);
+  noStroke();
+  ellipse(x,140,40,40);
+  x = x + 0.1 ;
+  fill(0,100,100);
+  rect(340,100,60,100);
+	
+	 //buildings
+	stroke(1);
+	line(0,300,300,300);
+	line(300,300,300,200);
+	line(300,200,350,200);
+	line(350,200,350,300);
+	line(350,300,340,300);
+	line(340,300,340,100);
+	line(340,100,370,65);
+	line(370,65,400,100);
+	line(400,100,400,300);
+	line(400,300,375,300);
+	line(375,300,375,150);
+	line(375,150,430,180);
+	line(430,180,430,300);
+	line(430,300,width,300);
+	
+	 //tree
+	fill(10,100,0); //green
+	ellipse(450,284,moonRadius,moonRadius);
+	line(450,300,450,280);
+	line(455,285,450,290);
+	line(445,281,450,286);
+	
+	 //name
+	textSize(30);
+	fill(60,150);
+	text("Abdelrhman",50,200); //shadow
+	text("Wassim",50,225); //shadow
+	fill(155);
+	text("Abdelrhman",48,198);
+	text("Wassim",48,223);
+	
+	console.log(mouseX,mouseY);
+	
+	if (x>width+moonRadius){
+		x=-moonRadius;
+	}
 	
 }
