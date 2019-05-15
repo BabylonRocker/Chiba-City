@@ -1,16 +1,18 @@
-var yellowRad = 71.406/2
 
+
+var yellowRad = 71.406/2
 var yellow1 = 406.203
 
 function setup() {
-  createCanvas(600, 400);
-    
+ var canvas = createCanvas(600, 400);
+    canvas.parent('header');
  // frameRate(30)
 }
 
 
 function draw() {
-background(255, 194, 14);
+
+    background(255, 194, 14);
 
   
   
