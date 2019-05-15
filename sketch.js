@@ -1,7 +1,7 @@
 var yellowRad = 71.406/2
 var yellow1 = 406.203
 
-let myFont;
+// let myFont;
 
 // function preload() {
  // myFont = loadFont('Valera.ttf');
