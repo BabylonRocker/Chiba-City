@@ -1,5 +1,6 @@
-var yellowRad = 71.406/2
 
+
+var yellowRad = 71.406/2
 var yellow1 = 406.203
 
 function setup() {
@@ -46,6 +47,6 @@ text("Williams",38,223);
 yellow1 = yellow1 +.6
   
 if (yellow1 >= 600+yellowRad){  yellow1 = -100;
-}
+
 
   }
