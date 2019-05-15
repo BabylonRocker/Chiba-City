@@ -10,15 +10,15 @@ function setup() {
 
 function draw() {
 
-	background (0,100,100);
+	background (244, 193, 67);
   
 	//the moon :)
   fill(255);
   noStroke();
-  ellipse(x,140,40,40);
+  ellipse(x,244, 193, 67);
   x = x + 0.1 ;
-  fill(0,100,100);
-  rect(340,100,60,100);
+  fill(244, 193, 67);
+  rect(244, 193, 67);
 	
 	 //buildings
 	stroke(1);
