@@ -11,7 +11,8 @@ function setup() {
 
 function draw() {
 
-	background (0,100,100);
+	background(195, 38, 41);
+
   
 	//the moon :)
   fill(255);
