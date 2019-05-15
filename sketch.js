@@ -1,18 +1,16 @@
+//based //based on https://www.openprocessing.org/sketch/424072 by Abdelrhman Wassim
 
-
-var yellowRad = 71.406/2
-var yellow1 = 406.203
+var x= 280;
+var moonRadius = 17;
 
 function setup() {
-  createCanvas(600, 400);
-    canvas.parent('header');
- // frameRate(30)
+  var canvas = createCanvas(windowWidth, 400);
+  canvas.parent('header');
 }
 
 function draw() {
 
-	background(195, 38, 41);
-
+	background (0,100,100);
   
 	//the moon :)
   fill(255);
