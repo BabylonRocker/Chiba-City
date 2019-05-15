@@ -1,11 +1,9 @@
-//based //based on https://www.openprocessing.org/sketch/424072 by Abdelrhman Wassim
-
-var x= 280;
-var moonRadius = 17;
+var yellowRad = 71.406/2
+var yellow1 = 406.203
 
 function setup() {
   var canvas = createCanvas(windowWidth, 400);
-  canvas.parent('header');
+ // canvas.parent('header');
 }
 
 function draw() {
@@ -31,7 +29,7 @@ fill(195, 39, 41);
 circle(291.493, 194.749, 106.011/2);
   
 
-textFont(myFont);  
+// textFont(myFont);  
 textSize(30);
 fill(155);
 text("Jackson" ,40,200); //shadow
